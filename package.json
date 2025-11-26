@@ -1,0 +1,28 @@
+{
+  "name": "nextep-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": " node ./node_modules/nodemon/bin/nodemon.js server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "saa senthil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-jwt": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "mongoose-type-email": "^1.1.2",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
