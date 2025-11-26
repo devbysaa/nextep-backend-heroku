@@ -68,7 +68,6 @@ const jobApplicationSchema = new mongoose.Schema({
 
         /* ==========================
            SALARY RANGE
-           - Optional number fields for min and max salary
           ========================== */
         minSalary: {
             type: Number, // e.g. 20000
