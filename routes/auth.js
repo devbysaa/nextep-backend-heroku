@@ -15,7 +15,7 @@ const router = express.Router()
 const Utils = require('../Utils')
 
 // Import User model (blueprint for user data) to interact with MongoDB
-const User = require('../models/user')
+const User = require('../models/User')
 
 // Import the jsonwebtoken library
 // This library is used to create (sign) and check (verify) JWT tokens for authentication

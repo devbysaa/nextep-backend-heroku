@@ -11,7 +11,7 @@ const express = require('express')
 const router = express.Router()
 
 // Import User model (blueprint for user data) to interact with MongoDB
-const User = require('../models/user')
+const User = require('../models/User')
 
 // Below dependencies are for handling avatar image files
 const path = require('path')
